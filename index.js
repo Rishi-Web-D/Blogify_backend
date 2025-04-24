@@ -16,9 +16,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-const authRoutes = require('.././routes/auth');
-const blogRoutes = require('.././routes/blogs');
-const userRoutes = require('.././routes/users');
+const authRoutes = require('./routes/auth');
+const blogRoutes = require('./routes/blogs');
+const userRoutes = require('./routes/users');
 
 app.use(morgan('dev')); 
 
